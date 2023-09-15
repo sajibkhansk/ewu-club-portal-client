@@ -58,8 +58,8 @@ const AddClub = () => {
   
 
   return (
-    <div className="bg-gray-100 min-h-screen flex justify-center items-center">
-      <div className="bg-white p-8 rounded shadow-lg w-full max-w-md">
+    <div className="bg-gray-100 min-h-screen flex justify-center items-center w-[50%]  ">
+      <div className="bg-amber-400 p-8 rounded shadow-lg w-full max-w-md">
         <h1 className="text-2xl font-semibold mb-4">Add Club</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
